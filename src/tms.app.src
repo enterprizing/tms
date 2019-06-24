@@ -1,0 +1,9 @@
+{application, tms,
+ [
+  {description, "TMS Transport Management System"},
+  {vsn, "0.6.0"},
+  {registered, []},
+  {applications, [kernel,stdlib]},
+  {mod, { tms, []}},
+  {env, []}
+ ]}.
